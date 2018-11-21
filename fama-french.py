@@ -4,9 +4,9 @@ import statsmodels.api as sm
 import numpy as np
 import pandas as pd
 from scipy.stats import f
-ff3 = pd.read_excel('C:/Users/joshu/Dropbox/계량적추정모형_이창준/자산가격모형계량적추정_code/data1.xlsx',"Sheet3")
-p25=pd.read_excel('C:/Users/joshu/Dropbox/계량적추정모형_이창준/자산가격모형계량적추정_code/data1.xlsx','Sheet1')
-m10=pd.read_excel('C:/Users/joshu/Dropbox/계량적추정모형_이창준/자산가격모형계량적추정_code/data1.xlsx','Sheet2')
+ff3 = pd.read_excel('code/data1.xlsx',"Sheet3")
+p25=pd.read_excel('code/data1.xlsx','Sheet1')
+m10=pd.read_excel('code/data1.xlsx','Sheet2')
 rev_m10 = pd.read_excel()
 
 #%%
